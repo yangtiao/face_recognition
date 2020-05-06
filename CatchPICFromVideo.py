@@ -57,4 +57,4 @@ def CatchPICFromVideo(window_name, camera_idx, catch_pic_num, path_name):
     cv2.destroyAllWindows() 
     
 if __name__ == '__main__':
-    CatchPICFromVideo("截取人脸", 0, 5, './img')
+    CatchPICFromVideo("Face Capture", './video/meeting.mp4', 1000, './input/meeting')
